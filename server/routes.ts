@@ -1393,8 +1393,8 @@ async function generateAllOffers(
     {
       key: "coin_link",
       name: "Coin Page Offer",
-      primaryUrl: `https://m.aliexpress.com/p/coin-index/index.html?_immersiveMode=true&tabname=configTab_1926001&productIds=${productId}`,
-      secondaryUrl: `https://m.aliexpress.com/p/coin-index/index.html?_immersiveMode=true&tabname=configTab_1926001&productIds=${productId}`,
+      primaryUrl: `https://m.aliexpress.com/p/coin-index/index.html?_immersiveMode=true&productIds=${productId}`,
+      secondaryUrl: `https://m.aliexpress.com/p/coin-index/index.html?_immersiveMode=true&productIds=${productId}`,
     },
     {
       key: "direct_link",
